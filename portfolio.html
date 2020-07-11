@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <header>
+            <div class="navbar" id="mynav"> 
+                <a href="#wrapper" class="active">About Me</a> 
+                <a href="#skills">My Skills</a>
+                <a href="#projects">My Projects</a>
+                <a href="#contact">Contact Me</a>
+                <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <div id="wrapper">
+            <div class="bubbles">
+                <img class="profile" src="profile.jpeg">
+                <h2> Hi, I am Komal Yadav</h2>
+                <p>A front-end web developer</p>
+            </div>
+                
+        </div>
+        
+        <div id="skills">
+            <h2 style="color: #751A33;text-decoration: underline;">My Skills</h2>
+            <div class="row">
+                <div class="col-sm-3 logo-col">
+                    <p class="logo-text">HTML</p>
+                    <i class="fab fa-html5  logo"></i>
+                    <a class="certificate" href="#">View Certification of HTML5</a>
+                </div>
+                <div class="col-sm-3 logo-col">
+                    <p class="logo-text">CSS</p>
+                    <i class="fab fa-css3-alt  logo" style="color: #0044AA;"></i>
+                    <a class="certificate" href="#">View Certification of CSS3</a>
+                </div>
+                <div class="col-sm-3 logo-col">
+                    <p class="logo-text">JavaScript</p>
+                    <i class="fab fa-js-square  logo" style="color: #FCCF3E;"></i>
+                    <a class="certificate" href="#">View Certification of JS</a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 2%;">
+                <div class="col-sm-3 logo-col">
+                    <p class="logo-text">mySQL</p>
+                    <i class="fa fa-database  logo" style="color: skyblue; font-size: 8vw;"></i>
+                    <a class="certificate" href="#">View Certification of mySQL</a>
+              </div>
+              <div class="col-sm-3 logo-col">
+                    <p class="logo-text">jQuery</p>
+                    <img src="jquery.ico" class="jqueryimg">
+                    <a class="certificate" href="#">View Certification of jQuery</a>
+                </div>
+                <div class="col-sm-3 logo-col">
+                  <p class="logo-text">Bootstrap</p>
+                  <i class="fab fa-bootstrap  logo" style="color: blueviolet;"></i>
+                  <a class="certificate" href="#">View Certification of BootStrap</a>
+                </div>
+            </div>
+            <a href="#"><button>Explore more ➟</button></a>
+        </div>
+
+        <div id="projects">
+            <h2 style="color: #751A33;">My Projects</h2>
+            <div class="row">
+                <div class="col-md-6 project-col">
+                  <a href="#"><img src="tribute.jpg" class="projectimg"></a>
+                  <p class="project-title">
+                      <a href="#"  style="color: white;"> Responsive Tribute Page</a>
+                  </p>
+                </div>
+                <div class="col-md-6 project-col">
+                    <a href="#"><img src="product.jpg" class="projectimg"></a>
+                    <p class="project-title">
+                      <a href="#"  style="color: white;"> Responsive Product Landing Page</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 project-col">
+                  <a href="#"><img src="survey.jpg" class="projectimg"></a>
+                  <p class="project-title">
+                      <a href="#"  style="color: white;"> Responsive Survey Form</a>
+                  </p>
+                </div>
+                <div class="col-md-6 project-col">
+                    <a href="#"><img src="documentation.jpg" class="projectimg"></a>
+                    <p class="project-title">
+                      <a href="#" style="color: white;"> Responsive Documentation Page</a>
+                    </p>
+                </div>
+            </div>
+            <a href="#"><button>Explore more ➟</button></a>
+        </div>
+
+        <footer id="contact">
+            <p>Wanna get connected to me??</p>
+            <p id="subscript">Click the link below and get connected.... </p>
+            <a href="#" class="connect"><i class="fab fa-github-square footer-icon"></i></a>
+            <a href="#" class="connect"><i class="fab fa-linkedin footer-icon"></i></a>
+            <a href="#" class="connect"><i class="fas fa-mail-bulk footer-icon"></i></a>
+            <p style="margin-left:80% ;font-size: 1.2vw;font-family: lucida handwriting;">~made with   🤍  by komal</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/41f35c7692.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <script>
+            document.getElementById('wrapper').addEventListener('mousemove', function(k) {
+            let bubbles = document.querySelector(".bubbles");
+            let circle = document.createElement('section');
+            let x = k.offsetX;
+            let y = k.offsetY;
+            circle.style.left = x + "px";
+            circle.style.top = y + "px";
+            let size = Math.random() * 100;
+            circle.style.width = 20 + size + "px";
+            circle.style.height = 20 + size + "px";
+            wrapper.appendChild(circle);
+            setTimeout(function() {
+            circle.remove();
+            }, 1800);
+            });
+        </script>
+
+        <script>
+            function navFunction() {
+            var x = document.getElementById("mynav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+            }
+        </script>
+    </body>
+</html>
