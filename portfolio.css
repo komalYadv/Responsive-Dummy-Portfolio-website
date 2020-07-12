@@ -288,11 +288,26 @@ footer{
     }
 
     .logo{
-        margin-top: -20%;
+        margin-top: -19%;
     }
 
     .jqueryimg{
-        margin-top: -8%;
+        margin-top: -17%;
+    }
+}
+
+
+@media (max-width: 800px) {
+      
+    .jqueryimg{
+        margin-top: -14%;
+    }
+}
+
+@media (max-width: 750px) {
+      
+    .jqueryimg{
+        margin-top: -15%;
     }
 }
 
@@ -322,6 +337,7 @@ footer{
 @media(max-width:575px){
  .jqueryimg{
       width: 10.2%;
+      margin-top: -8%;
     }
    
  .profile{
